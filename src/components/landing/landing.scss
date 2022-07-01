@@ -37,13 +37,22 @@
     .info {
       display: flex;
       flex-direction: column;
+      
+      @include mobile {
+        align-items: center;
+      }
 
       .top {
         display: flex;
         align-items: center;
 
+
         @include mobile {
-          flex-direction: column;
+
+        flex-direction: column;
+        justify-content: center;
+        //  border: 1px solid white;
+         
         }
     
         .logo-info {
@@ -56,6 +65,16 @@
 
         .title {
           margin-left: 50px;
+
+          @include mobile {
+            margin: 0;
+          // border: 1px solid red;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+           
+
+          }
 
           h2 {
             font-size: 45px;
