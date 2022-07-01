@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import "./navbar.scss";
 import logo from "../../assets/logo.png";
-import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
-function Navbar({menuOpen,setMenuOpen}) {
+function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={'navBar ' + (menuOpen && "active")}>
+    <div className={"navBar " + (menuOpen && "active")}>
       <header>
         <div className="left">
           <img src={logo} alt="logo" className="logo" />
@@ -16,21 +16,29 @@ function Navbar({menuOpen,setMenuOpen}) {
           </div>
         </div>
         <div className="navigation">
-          <a href="/#">Inicio</a>
-          <a href="/#">Ver Partidos</a>
-          <a href="/#">Como funciona</a>
-          <a href="/#">Clubes</a>
-          <a href="/#" className="last">
+          <a href="#landing" onClick={() => setMenuOpen(false)}>
+            Inicio
+          </a>
+          <a href="/#" onClick={() => setMenuOpen(false)}>
+            Ver Partidos
+          </a>
+          <a href="/#" onClick={() => setMenuOpen(false)}>
+            Como funciona
+          </a>
+          <a href="/#" onClick={() => setMenuOpen(false)}>
+            Clubes
+          </a>
+          <a href="/#" className="last" onClick={() => setMenuOpen(false)}>
             Contacto
           </a>
         </div>
-        <div className="menu" onClick={()=>setMenuOpen(!menuOpen)} >
-            <MenuIcon className='open-btn'/>
-            <CloseIcon className="close-btn"/>
+        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+          <MenuIcon className="open-btn" />
+          <CloseIcon className="close-btn" />
         </div>
       </header>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

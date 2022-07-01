@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .landing {
-  // position: relative;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -15,11 +14,10 @@
     url("../../assets/landing.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-
-  
+ 
 
   .content {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.581);
     width: 50%;
     position: absolute;
     left: 50%;
@@ -33,6 +31,9 @@
       padding: 50px 25px;
     }
 
+
+
+    
     .info {
       display: flex;
       flex-direction: column;

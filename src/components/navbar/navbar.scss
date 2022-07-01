@@ -28,9 +28,10 @@
 
       .logo-title {
         h2 {
-          font-size: 35px;
+          font-size: 30px;
           margin: 0;
           letter-spacing: 1px;
+          border: 1px solid red;
           @include mobile {
             font-size: 20px;
           }
