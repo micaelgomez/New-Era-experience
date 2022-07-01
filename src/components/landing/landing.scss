@@ -1,0 +1,99 @@
+@import "../../global.scss";
+
+.landing {
+  // position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 15%,
+      rgba(0, 0, 0, 1) 120%
+    ),
+    url("../../assets/landing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  
+
+  .content {
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 100px 50px;
+
+    @include mobile {
+      width: 75%;
+      padding: 50px 25px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+
+      .top {
+        display: flex;
+        align-items: center;
+
+        @include mobile {
+          flex-direction: column;
+        }
+    
+        .logo-info {
+          height: 170px;
+
+          @include mobile {
+            height: 145px;
+          }
+        }
+
+        .title {
+          margin-left: 50px;
+
+          h2 {
+            font-size: 45px;
+            margin: 0;
+            letter-spacing: 1px;
+            color: $maincolor;
+          }
+
+          h3 {
+            margin: 0;
+            font-size: 25px;
+            color: $color-white;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+          }
+        }
+      }
+
+      .btn {
+        color: $color-white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: $maincolor;
+        align-self: flex-end;
+        padding: 10px 25px;
+        color: $color-black;
+        margin-top: 20px;
+        transition: 0.3s;
+
+        &:hover {
+          background-color: $color-black;
+          color: $maincolor;
+        }
+
+        @include mobile {
+        align-self: center;
+        }
+      }
+    }
+  }
+}

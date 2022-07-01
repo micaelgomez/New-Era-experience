@@ -1,0 +1,12 @@
+$maincolor: #FCCB29;
+$color-black: #000000;
+$color-white: #ffffff;
+
+$width: 1024px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
+
