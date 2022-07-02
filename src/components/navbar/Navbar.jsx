@@ -22,7 +22,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
           <a href="/#" onClick={() => setMenuOpen(false)}>
             Ver Partidos
           </a>
-          <a href="/#" onClick={() => setMenuOpen(false)}>
+          <a href="#functions" onClick={() => setMenuOpen(false)}>
             Como funciona
           </a>
           <a href="/#" onClick={() => setMenuOpen(false)}>
