@@ -6,7 +6,7 @@ export const cardInfo = [
     id: 1,
     title: "Paso ",
     description: "Reviví tu partido desde el teléfono o la computadora.",
-    logo: "Ver",
+    logo: "Ver Partido",
   },
   {
     id: 2,

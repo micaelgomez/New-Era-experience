@@ -1,0 +1,19 @@
+.video {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../assets/funcionafondo.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .video {
+    width: 45%;
+  }
+}
