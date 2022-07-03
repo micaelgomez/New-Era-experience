@@ -5,8 +5,14 @@ import golDelMes from "../../assets/golDelMes.mp4";
 
 function Video() {
   return (
-    <div className="video" >
-      <ReactPlayer className="video" url={golDelMes} controls loop />
+    <div className="video">
+      <ReactPlayer
+        className="video"
+        url={golDelMes}
+        controls
+        loop
+       
+      />
     </div>
   );
 }

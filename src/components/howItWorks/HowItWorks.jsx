@@ -16,7 +16,12 @@ function HowItWorks() {
       </div>
       <div className="cards">
         {cardInfo.map((info) => (
-          <Card id={info.id} description={info.description} title={info.title} logo={info.logo}/>
+          <Card
+            id={info.id}
+            description={info.description}
+            title={info.title}
+            logo={info.logo}
+          />
         ))}
       </div>
     </div>

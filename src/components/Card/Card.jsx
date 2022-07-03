@@ -1,6 +1,5 @@
 import React from "react";
 import "./Card.scss";
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 function Card({ id, title, description, logo }) {
   return (
