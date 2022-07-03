@@ -9,7 +9,7 @@
     z-index: 1;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(black, rgba(255, 255, 0, 0));
+    background-image: linear-gradient(black, rgba(23, 22, 22, 0));
     justify-content: space-around;
     align-items: center;
     color: $maincolor;
@@ -33,7 +33,7 @@
           padding-right: 5px;
           letter-spacing: 1px;
           // border: 1px solid red;
-          
+
           @include mobile {
             font-size: 20px;
           }
