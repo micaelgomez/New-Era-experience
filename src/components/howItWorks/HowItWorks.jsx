@@ -1,7 +1,7 @@
 import React from "react";
 import "./howItWorks.scss";
 import { cardInfo } from "../../dataCards";
-import Card from "../Card/Card";
+import Card from "../card/Card";
 
 function HowItWorks() {
   return (
@@ -20,6 +20,7 @@ function HowItWorks() {
             id={info.id}
             description={info.description}
             title={info.title}
+            link={info.link}
             logo={info.logo}
           />
         ))}

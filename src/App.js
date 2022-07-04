@@ -4,6 +4,8 @@ import Navbar from "./components/navbar/Navbar";
 import { useState } from "react";
 import HowItWorks from "./components/howItWorks/HowItWorks";
 import Video from "./components/video/Video";
+import Clubs from "./components/clubs/Clubs";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,6 +16,9 @@ function App() {
       <Landing />
       <HowItWorks />
       <Video />
+      <Clubs />
+      
+
     </div>
   );
 }

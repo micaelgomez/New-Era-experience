@@ -1,0 +1,27 @@
+@import "../../global.scss";
+
+.clubs {
+//   background: linear-gradient(
+//       to top,
+//       rgba(0, 0, 0, 0) 15%,
+//       rgba(0, 0, 0, 1) 120%
+//     ),
+//     url("../../assets/funcionafondo.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0px;
+
+
+  h2 {
+    font-size: 40px;
+    // color: white;
+    color: black;
+    padding-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1.3px;
+
+    @include mobile {
+        font-size: 30px;
+      }
+  }
+}

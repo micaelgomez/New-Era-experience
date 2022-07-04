@@ -1,0 +1,58 @@
+export const infoClubs = [
+  {
+    number: 1,
+    club: "Morumbi",
+    ciudad: "Hurlingham",
+    telefono: "+54 1158235818",
+    foto: "morumbi",
+  },
+  {
+    number: 2,
+    club: "Maracana",
+    ciudad: "San Miguel",
+    telefono: "+54 1154518817",
+    foto: "maracana",
+  },
+  {
+    number: 3,
+    club: "Match Futbol",
+    ciudad: "Villa Tesei",
+    telefono: "+54 1160487845",
+    foto: "matchFutbol",
+  },
+  {
+    number: 4,
+    club: "Futbol 5",
+    ciudad: "Palermo",
+    telefono: "+54 1130789828",
+    foto: "futbol5",
+  },
+  {
+    number: 5,
+    club: "Copa Palermo",
+    ciudad: "La Boca",
+    telefono: "+54 1180187868",
+    foto: "palermo",
+  },
+  {
+    number: 6,
+    club: "Futbol Geba",
+    ciudad: "Bella vista",
+    telefono: "+54 1158235818",
+    foto: "geba",
+  },
+  {
+    number: 7,
+    club: "Salguero Futbol",
+    ciudad: "San Isidro",
+    telefono: "+54 1178985478",
+    foto: "salguero",
+  },
+  {
+    number: 8,
+    club: "Futbol 10",
+    ciudad: "Villa Urquiza",
+    telefono: "+54 115878985",
+    foto: "futbol10",
+  },
+];

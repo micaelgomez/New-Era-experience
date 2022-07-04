@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.scss";
 
-function Card({ id, title, description, logo }) {
+function Card({ id, title, description, logo, link }) {
   return (
     <div class="card">
       <div class="box">
@@ -9,7 +9,9 @@ function Card({ id, title, description, logo }) {
           <h2> {id}</h2>
           <h3>{title}</h3>
           <p>{description}</p>
-          <a href="/#">{logo}</a>
+          <a href={link} target="_blank" rel="noreferrer">
+            {logo}
+          </a>
         </div>
       </div>
     </div>
