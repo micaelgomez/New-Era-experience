@@ -7,7 +7,7 @@ function HowItWorks() {
   return (
     <div className="howItWorks" id="functions">
       <div className="title">
-        <h2>¿Como funciona?</h2>
+        <h2>¿Como funcionb?</h2>
         <h3>
           Instalamos cámaras en los complejos deportivos, los jugadores reviven
           sus partidos desde el teléfono o la computadora y participan por
