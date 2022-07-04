@@ -1,7 +1,7 @@
 import React from "react";
 import "./howItWorks.scss";
 import { cardInfo } from "../../dataCards";
-import Card from "../card/Card";
+import Steps from "../steps/Steps";
 
 function HowItWorks() {
   return (
@@ -16,7 +16,7 @@ function HowItWorks() {
       </div>
       <div className="cards">
         {cardInfo.map((info) => (
-          <Card
+          <Steps
             id={info.id}
             description={info.description}
             title={info.title}

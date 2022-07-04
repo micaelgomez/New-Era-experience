@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.scss";
+import "./steps.scss";
 
-function Card({ id, title, description, logo, link }) {
+function Steps({ id, title, description, logo, link }) {
   return (
     <div class="card">
       <div class="box">
@@ -18,4 +18,4 @@ function Card({ id, title, description, logo, link }) {
   );
 }
 
-export default Card;
+export default Steps;
