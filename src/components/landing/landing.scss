@@ -11,10 +11,9 @@
       rgba(0, 0, 0, 0) 15%,
       rgba(0, 0, 0, 1) 120%
     ),
-    url("../../assets/landing.jpg") no-repeat;
+    url("../../assets/landing.png") no-repeat;
   background-size: cover;
   background-position: center;
- 
 
   .content {
     background-color: rgba(0, 0, 0, 0.581);
@@ -31,13 +30,10 @@
       padding: 50px 25px;
     }
 
-
-
-    
     .info {
       display: flex;
       flex-direction: column;
-      
+
       @include mobile {
         align-items: center;
       }
@@ -46,15 +42,12 @@
         display: flex;
         align-items: center;
 
-
         @include mobile {
-
-        flex-direction: column;
-        justify-content: center;
-        //  border: 1px solid white;
-         
+          flex-direction: column;
+          justify-content: center;
+          //  border: 1px solid white;
         }
-    
+
         .logo-info {
           height: 170px;
 
@@ -68,12 +61,10 @@
 
           @include mobile {
             margin: 0;
-          // border: 1px solid red;
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-           
-
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
           }
 
           h2 {
@@ -112,7 +103,7 @@
         }
 
         @include mobile {
-        align-self: center;
+          align-self: center;
         }
       }
     }
