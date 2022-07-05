@@ -45,15 +45,11 @@
       .top {
         display: flex;
         align-items: center;
-
-        @include mobile {
-          flex-direction: column;
-          justify-content: center;
-          //  border: 1px solid white;
-        }
+        flex-direction: column;
 
         .logo-info {
           height: 170px;
+          
 
           @include mobile {
             height: 145px;
@@ -61,14 +57,10 @@
         }
 
         .title {
-          margin-left: 50px;
+        margin: 25px 0;
+          text-align: center;
 
-          @include mobile {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-          }
+         
 
           h2 {
             font-size: 45px;
@@ -96,7 +88,7 @@
         align-self: center;
         padding: 10px 25px;
         color: $color-black;
-        margin-top: 20px;
+
         transition: 0.3s;
         text-align: center;
 

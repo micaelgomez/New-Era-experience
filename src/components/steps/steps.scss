@@ -11,6 +11,10 @@
   margin: 30px;
   transition: 0.5s;
 
+  @include mobile {
+    height: 350px;
+  }
+
   .box {
     position: absolute;
     top: 20px;
@@ -49,6 +53,9 @@
         right: 30px;
         font-size: 8rem;
         color: $maincolor;
+        @include mobile {
+          font-size: 5rem;
+        }
       }
 
       h3 {

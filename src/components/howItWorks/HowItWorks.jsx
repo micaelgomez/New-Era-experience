@@ -2,10 +2,12 @@ import React from "react";
 import "./howItWorks.scss";
 import { cardInfo } from "../../dataCards";
 import Steps from "../steps/Steps";
+import Fade from 'react-reveal/Fade';
 
 function HowItWorks() {
   return (
     <div className="howItWorks" id="functions">
+ <Fade left>
       <div className="title">
         <h2>¿Como funciona?</h2>
         <h3>
@@ -26,6 +28,7 @@ function HowItWorks() {
           />
         ))}
       </div>
+      </Fade>
     </div>
   );
 }

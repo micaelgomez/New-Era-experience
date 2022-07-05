@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.scss";
+import Fade from 'react-reveal/Fade';
 
 function Contact() {
   return (
@@ -12,6 +13,7 @@ function Contact() {
         </a>
       </div>
 
+      <Fade bottom >
       <div className="socialMedia">
       <div className="mediaBtn">
           <a className="mx-2" target="_blank" rel="noreferrer" href="/#">
@@ -66,8 +68,10 @@ function Contact() {
             </svg>
           </a>
         </div>
-       
+      
       </div>
+      </Fade>
+
       <div className="footer">
         <div className="terminos">
           <h4>Copyright @ NewEra2022</h4>

@@ -3,6 +3,7 @@ import "./clubs.scss";
 import Carousel from "react-elastic-carousel";
 import CardClub from "../cardClub/CardClub";
 import { infoClubs } from "../../infoClubs";
+import Fade from 'react-reveal/Fade';
 
 function Clubs() {
   const breakPoints = [
@@ -14,7 +15,7 @@ function Clubs() {
 
   return (
     <div className="clubs" id="clubes">
-      <h2>Establecimientos afiliados</h2>
+      <Fade right>      <h2>Establecimientos afiliados</h2>
       <Carousel breakPoints={breakPoints}>
         {infoClubs.map((club) => (
           <CardClub
@@ -27,6 +28,8 @@ function Clubs() {
           />
         ))}
       </Carousel>
+      </Fade>
+
     </div>
   );
 }
