@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .howItWorks {
+  background-color: black;
   min-height: 100vh;
   position: relative;
   background: linear-gradient(
@@ -9,6 +10,7 @@
       rgba(0, 0, 0, 1) 120%
     ),
     url("../../assets/funcionafondo.jpg") no-repeat;
+
   background-size: cover;
   background-position: center;
   display: flex;

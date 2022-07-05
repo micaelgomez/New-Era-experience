@@ -11,7 +11,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="App">
+    <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Landing />
       <HowItWorks />
