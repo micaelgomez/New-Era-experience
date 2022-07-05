@@ -5,6 +5,7 @@ import { useState } from "react";
 import HowItWorks from "./components/howItWorks/HowItWorks";
 import Video from "./components/video/Video";
 import Clubs from "./components/clubs/Clubs";
+import Contact from "./components/contact/Contact";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <HowItWorks />
       <Video />
       <Clubs />
-      
+      <Contact />
 
     </div>
   );

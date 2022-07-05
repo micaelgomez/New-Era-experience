@@ -1,0 +1,108 @@
+@import "../../global.scss";
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../assets/funcionafondo.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .title {
+    text-align: center;
+    color: $color-white;
+    padding: 10px;
+    margin-top: 30px;
+
+    h2 {
+      font-size: 60px;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+
+      @include mobile {
+        font-size: 50px;
+      }
+    }
+
+    h4 {
+      font-size: 30px;
+      letter-spacing: 1px;
+      margin-bottom: 40px;
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+
+    .btn {
+      color: $color-white;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 500;
+      background-color: $maincolor;
+      align-self: center;
+      padding: 10px 25px;
+      color: $color-black;
+      margin-top: 20px;
+      transition: 0.3s;
+      text-align: center;
+
+      &:hover {
+        background-color: $color-white;
+        color: $color-black;
+      }
+
+      @include mobile {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .socialMedia {
+    width: 100%;
+    background-color: $maincolor;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .mediaBtn {
+      background-color: black;
+      padding: 15px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      a {
+        color: white;
+        
+        &:hover {
+          color: $maincolor;
+        }
+      }
+    }
+  }
+
+  .terminos {
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 15px 25px;
+
+    @include mobile {
+      font-size: 12px;
+    }
+
+    h4 {
+      a {
+        color: $maincolor;
+      }
+    }
+  }
+}

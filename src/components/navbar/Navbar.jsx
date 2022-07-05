@@ -28,7 +28,11 @@ function Navbar({ menuOpen, setMenuOpen }) {
           <a href="#clubes" onClick={() => setMenuOpen(false)}>
             Clubes
           </a>
-          <a href="/#" className="last" onClick={() => setMenuOpen(false)}>
+          <a
+            href="#contact"
+            className="last"
+            onClick={() => setMenuOpen(false)}
+          >
             Contacto
           </a>
         </div>
