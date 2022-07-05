@@ -37,6 +37,7 @@
       font-size: 30px;
       letter-spacing: 1px;
       margin-bottom: 40px;
+
       @include mobile {
         font-size: 20px;
       }
@@ -56,8 +57,11 @@
       text-align: center;
 
       &:hover {
-        background-color: $color-white;
-        color: $color-black;
+        background-color: $color-black;
+        color: $maincolor;
+        -webkit-box-shadow: 0px 0px 68px -3px rgba(252, 203, 41, 0.96);
+        -moz-box-shadow: 0px 0px 68px -3px rgba(252, 203, 41, 0.96);
+        box-shadow: 0px 0px 68px -3px rgba(252, 203, 41, 0.96);
       }
 
       @include mobile {
@@ -74,15 +78,23 @@
     align-items: center;
     justify-content: space-around;
 
+    @include mobile {
+      padding: 20px 0;
+    }
+
     .mediaBtn {
       background-color: black;
-      padding: 15px;
+      padding: 10px;
       border-radius: 50%;
       cursor: pointer;
 
+      @include mobile {
+        padding: 10px;
+      }
+
       a {
         color: white;
-        
+
         &:hover {
           color: $maincolor;
         }

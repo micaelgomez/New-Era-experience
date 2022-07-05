@@ -22,6 +22,7 @@ function HowItWorks() {
             title={info.title}
             link={info.link}
             logo={info.logo}
+            key = {info.id}
           />
         ))}
       </div>
