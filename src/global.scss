@@ -2,7 +2,12 @@ $maincolor: #FCCB29;
 $color-black: #000000;
 $color-white: #ffffff;
 
+
+
 $width: 1024px;
+$tablet-width: 768px;
+$widht3: 500px;
+
 
 @mixin mobile {
     @media (max-width: #{$width}) {
@@ -10,3 +15,9 @@ $width: 1024px;
     }
 }
 
+
+@mixin desktop {
+    @media (min-width: #{$tablet-width}) {
+      @content;
+    }
+  }

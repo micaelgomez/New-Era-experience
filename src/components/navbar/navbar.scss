@@ -17,24 +17,27 @@
     .left {
       display: flex;
       align-items: center;
-
       padding: 5px;
 
       .logo {
         height: 80px;
         margin-right: 25px;
+
         @include mobile {
           height: 50px;
         }
       }
 
       .logo-title {
+        margin-right: 50px;
         h2 {
           font-size: 30px;
           margin: 0;
           padding-right: 5px;
           letter-spacing: 1px;
-          // border: 1px solid red;
+
+          
+
 
           @include mobile {
             font-size: 13px;

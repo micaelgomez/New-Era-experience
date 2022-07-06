@@ -8,13 +8,16 @@ function Navbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"navBar " + (menuOpen && "active")}>
       <header>
-        <div className="left">
+        <div className="left" id = "inicio">
+          <a href="#landing">
           <img src={logo} alt="logo" className="logo" />
+          </a>
           <div className="logo-title">
             <h2>NEW ERA</h2>
             <h4>EXPERIENCE</h4>
           </div>
         </div>
+       
         <div className="navigation">
           <a href="#landing" onClick={() => setMenuOpen(false)}>
             Inicio
