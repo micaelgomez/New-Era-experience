@@ -9,9 +9,11 @@ function Steps({ id, title, description, logo, link }) {
           <h2> {id}</h2>
           <h3>{title}</h3>
           <p>{description}</p>
-          <a href={link} target="_blank" rel="noreferrer">
+
+          <a href={link} target="_blank" rel="noreferrer" >
             {logo}
           </a>
+        
         </div>
       </div>
     </div>

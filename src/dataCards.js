@@ -1,5 +1,6 @@
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 export const cardInfo = [
   {
@@ -7,20 +8,20 @@ export const cardInfo = [
     title: "Paso ",
     description: "Reviví tu partido desde el teléfono o la computadora.",
     link: "/#",
-    logo: "Ver Partido",
+    logo: <PlayCircleIcon />,
   },
   {
     id: 2,
     title: "Paso ",
     description: "Recorta tu jugada y envíala a nuestro Instagram",
     link: "https://www.instagram.com/new.era.experience/",
-    logo: "Instagram",
+    logo: <InstagramIcon />,
   },
   {
     id: 3,
     title: "Paso ",
     description: "Participa por premios todos los meses",
     link: "/#",
-    logo: < EmojiEventsIcon />,
+    logo: <EmojiEventsIcon />,
   },
 ];
